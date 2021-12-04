@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4126B6E82752FB2700EF4BED /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4126B6E72752FB2700EF4BED /* LoginView.swift */; };
+		418E884E275425E3007F6F9D /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418E884D275425E3007F6F9D /* LoginModel.swift */; };
+		418E885027542970007F6F9D /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418E884F27542970007F6F9D /* CustomCorners.swift */; };
 		41BE40A82751988C009DBE96 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE40A72751988C009DBE96 /* Tests_iOS.swift */; };
 		41BE40AA2751988C009DBE96 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE40A92751988C009DBE96 /* Tests_iOSLaunchTests.swift */; };
 		41BE40B42751988C009DBE96 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE40B32751988C009DBE96 /* Tests_macOS.swift */; };
@@ -21,6 +24,10 @@
 		41BE40BE2751988C009DBE96 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE40902751988A009DBE96 /* Persistence.swift */; };
 		41BE40BF2751988C009DBE96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41BE40912751988B009DBE96 /* Assets.xcassets */; };
 		41BE40C02751988C009DBE96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41BE40912751988B009DBE96 /* Assets.xcassets */; };
+		41BE40D327519990009DBE96 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41BE40D02751998F009DBE96 /* Raleway-SemiBold.ttf */; };
+		41BE40D427519990009DBE96 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41BE40D127519990009DBE96 /* Raleway-Bold.ttf */; };
+		41BE40D527519990009DBE96 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41BE40D227519990009DBE96 /* Raleway-Regular.ttf */; };
+		41BE40D927519B09009DBE96 /* OnBoardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE40D827519B09009DBE96 /* OnBoardingPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4126B6E72752FB2700EF4BED /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		418E884D275425E3007F6F9D /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		418E884F27542970007F6F9D /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
 		41BE408D2751988A009DBE96 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		41BE408E2751988A009DBE96 /* EcommerceAppKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcommerceAppKitApp.swift; sourceTree = "<group>"; };
 		41BE408F2751988A009DBE96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +65,11 @@
 		41BE40AF2751988C009DBE96 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41BE40B32751988C009DBE96 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		41BE40B52751988C009DBE96 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		41BE40D02751998F009DBE96 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		41BE40D127519990009DBE96 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		41BE40D227519990009DBE96 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		41BE40D627519A0F009DBE96 /* EcommerceAppKit--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "EcommerceAppKit--iOS--Info.plist"; sourceTree = "<group>"; };
+		41BE40D827519B09009DBE96 /* OnBoardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +104,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		418E884C275425A8007F6F9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				418E884D275425E3007F6F9D /* LoginModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		41BE40862751988A009DBE96 = {
 			isa = PBXGroup;
 			children = (
+				41BE40D627519A0F009DBE96 /* EcommerceAppKit--iOS--Info.plist */,
 				41BE408B2751988A009DBE96 /* Shared */,
 				41BE409D2751988C009DBE96 /* macOS */,
 				41BE40A62751988C009DBE96 /* Tests iOS */,
@@ -103,6 +127,9 @@
 		41BE408B2751988A009DBE96 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				418E884C275425A8007F6F9D /* Model */,
+				41BE40D727519AE4009DBE96 /* View */,
+				41BE40CF275198A2009DBE96 /* Fonts */,
 				41BE408E2751988A009DBE96 /* EcommerceAppKitApp.swift */,
 				41BE408F2751988A009DBE96 /* ContentView.swift */,
 				41BE40902751988A009DBE96 /* Persistence.swift */,
@@ -147,6 +174,26 @@
 				41BE40B52751988C009DBE96 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		41BE40CF275198A2009DBE96 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				41BE40D127519990009DBE96 /* Raleway-Bold.ttf */,
+				41BE40D227519990009DBE96 /* Raleway-Regular.ttf */,
+				41BE40D02751998F009DBE96 /* Raleway-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		41BE40D727519AE4009DBE96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41BE40D827519B09009DBE96 /* OnBoardingPage.swift */,
+				4126B6E72752FB2700EF4BED /* LoginView.swift */,
+				418E884F27542970007F6F9D /* CustomCorners.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +322,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				41BE40BF2751988C009DBE96 /* Assets.xcassets in Resources */,
+				41BE40D427519990009DBE96 /* Raleway-Bold.ttf in Resources */,
+				41BE40D327519990009DBE96 /* Raleway-SemiBold.ttf in Resources */,
+				41BE40D527519990009DBE96 /* Raleway-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,9 +357,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4126B6E82752FB2700EF4BED /* LoginView.swift in Sources */,
+				418E884E275425E3007F6F9D /* LoginModel.swift in Sources */,
 				41BE40B72751988C009DBE96 /* EcommerceAppKit.xcdatamodeld in Sources */,
 				41BE40BD2751988C009DBE96 /* Persistence.swift in Sources */,
 				41BE40B92751988C009DBE96 /* EcommerceAppKitApp.swift in Sources */,
+				418E885027542970007F6F9D /* CustomCorners.swift in Sources */,
+				41BE40D927519B09009DBE96 /* OnBoardingPage.swift in Sources */,
 				41BE40BB2751988C009DBE96 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,6 +534,7 @@
 				DEVELOPMENT_TEAM = AW76RA3653;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EcommerceAppKit--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -510,6 +565,7 @@
 				DEVELOPMENT_TEAM = AW76RA3653;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EcommerceAppKit--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
